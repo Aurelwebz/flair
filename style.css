@@ -1,0 +1,246 @@
+body {
+    margin-left: 20px;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2{
+    margin-left: 15px;
+}
+
+.swatch{
+    height: 7rem;
+    width: 3rem;
+}
+:root {
+    --color-violence: #561067;
+    --color-ultra_violence: #32083C;
+    --color-calme: #C2B5C5;
+    --color-bouteille: #0CB38B;
+    --color-jus_dorange: #F5871F;
+    --color-icetea: #FFB444;
+    --color-icetealight: #FCDBBC;
+    --color-biere: #D8CD4B;
+    --color-soft: #F594A0;
+    --color-neige: #FFFFFF;
+    --color-foule: #000000;
+    --color-interdit: #FF0000;
+    --border-size: 3px;
+    --space-sm: 13px 40px;
+    --border-radius: 50px;
+    --font-family: 'Encode Sans expanded';
+    --margin-left: 42px;
+    --margin-righ:  42px;
+    
+}
+
+#colorsample{
+    display:flex;
+}
+
+
+/* COLORS */
+
+.violence {
+    background-color: var(--color-violence);
+   
+}
+
+.ultra_violence {
+    background-color: var(--color-ultra_violence);
+}
+
+.calme {
+    background-color: var(--color-calme);
+}
+
+.jus_dorange {
+    background-color: var(--color-jus_dorange);
+}
+
+.icetea {
+    background-color: var(--color-icetea);
+}
+
+.icetealight {
+    background-color: var(--color-icetealight);
+}
+
+
+p{
+    font-family: var(--font-family);
+}
+
+.titredepage{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titredesection{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recherche{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+h2{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+
+
+
+
+
+
+/* small hauteur : 7 largeur : 28
+avec icon hauteur : 5 largeur : 18
+
+medium : H 18 L 18
+
+btn-big : H 21 L 95 
+
+Moyenne : H=13px L=40px
+*/
+
+/*.......*/ 
+
+.btn{
+    padding: var(--space-sm);
+     font-family: var(--font-family);
+     border: var(--border-size);
+     border-radius: var(--border-radius);
+     margin-left: var(--margin-left);
+     margin-right: var(--margin-righ)
+}
+
+
+ .btn-primary{
+     background-color: var(--color-ultra_violence);
+    color: var(--color-neige);
+} 
+
+
+
+.btn-primary:hover{
+    background-color: var(--color-violence);
+}
+
+.btn:active{
+    background-color: var(--color-violence);
+    color: var(--color-neige);
+}
+
+
+
+.btn-primary:disabled{
+    background-color: var(--color-calme);
+    
+}
+
+
+
+
+.btn-secondary-off{
+   
+    background-color: var(--color-jus_dorange);
+   
+}
+
+.btn-secondary-off:active{
+    background-color: var(--color-icetea);
+}
+
+
+
+.btn-secondary-on{
+
+    background-color: var(--color-ultra_violence);
+}
+
+.btn-secondary-on:active{
+    background-color: var(--color-violence);
+}
+
+.btn-secondary-off:disabled {
+    background-color: var(--color-icetealight);
+}
+
+.btn-secondary-on:disabled {
+    background-color: var(--color-calme);
+}
+
+
+
+
+.btn-tertiary{
+    height: 44px;
+    width:44px;
+    background-color: var(--color-jus_dorange);
+}
+
+
+.btn-tertiary:active{
+    background-color:var(--color-icetea) ;
+}
+
+.btn-tertiary:disabled{
+    background-color: var(--color-icetealight);
+}
+
+
+.bouton{
+    display: block;
+}
+
+
+
+
+
+
+
+/* BUTTONS */
+/* 
+.bigbutton {
+
+    height: 52px;
+    width: 327px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.mediumbutton {
+    height: 26px;
+    width: 103px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.smallbutton {
+    height: 20px;
+    width: 80px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.mediumbutftonicon {
+    height: 26px;
+    width: 199px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.togglebutton {
+    height: 38.5px;
+    width: 66px;
+    border-radius: 50px;
+    margin: 5px;
+} */ 
