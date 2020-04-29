@@ -1,11 +1,12 @@
 body {
     margin-left: 20px;
+    font-family: var(--font-family)
 }
 
 
 h1{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
 }
 
 h2{
@@ -30,13 +31,35 @@ h2{
     --color-foule: #000000;
     --color-interdit: #FF0000;
     --border-size: 3px;
-    --space-sm: 13px 40px;
+     --space-big: 12px; 
+     --space-medium: 6px;
+     --space-small: 3px;
     --border-radius: 50px;
     --font-family: 'Encode Sans expanded';
     --margin-left: 42px;
     --margin-righ:  42px;
+    /* --padding-left: 96px; */
+    --padding-right: 96px;
+    --width-big: 327px;
+    --width-medium: 103px;
+    --width-small: 80px;
+    --size-titre: 24px;
+    --size-big: 16px;
+    --size-medium:12px;
+    --size-small:10px;
+
     
 }
+
+/* small hauteur : 7 largeur : 28
+avec icon hauteur : 5 largeur : 18
+
+medium : H 18 L 18
+
+btn-big : H 21 L 95 
+
+Moyenne : H=13px L=40px
+*/
 
 #colorsample{
     display:flex;
@@ -76,18 +99,18 @@ p{
 }
 
 .titredepage{
-    font-size: 24px;
+    font-size: var(--size-titre);
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .titredesection{
-    font-size: 24px;
+     font-size: var(--size-titre);
     font-weight: bold;
 }
 
 .recherche{
-    font-size: 16px;
+   font-size: var(--size-big);
     font-weight: lighter;
 }
 
@@ -101,15 +124,6 @@ h2{
 
 
 
-/* small hauteur : 7 largeur : 28
-avec icon hauteur : 5 largeur : 18
-
-medium : H 18 L 18
-
-btn-big : H 21 L 95 
-
-Moyenne : H=13px L=40px
-*/
 
 /*.......*/ 
 
@@ -119,34 +133,79 @@ Moyenne : H=13px L=40px
      border: var(--border-size);
      border-radius: var(--border-radius);
      margin-left: var(--margin-left);
-     margin-right: var(--margin-righ)
+     margin-right: var(--margin-righ);
+     color: var(--color-neige)
 }
 
 
- .btn-primary{
+ .btn-big{
      background-color: var(--color-ultra_violence);
-    color: var(--color-neige);
+     width: var(--width-big);
+     font-size: var(--size-big);
+     padding-top: var(--space-big);
+     padding-bottom: var(--space-big);
+       
+    
 } 
 
 
 
-.btn-primary:hover{
+.btn-big:hover{
     background-color: var(--color-violence);
+    
 }
 
-.btn:active{
+.btn-big:active{
     background-color: var(--color-violence);
-    color: var(--color-neige);
-}
-
-
-
-.btn-primary:disabled{
-    background-color: var(--color-calme);
     
 }
 
 
+
+.btn-big:disabled{
+    background-color: var(--color-calme);
+    
+}
+
+.btn-medium{
+    
+    background-color: var(--color-ultra_violence);
+    width: var(--width-medium);
+   font-size: var(--size-medium);
+   padding-bottom: var(--space-medium);
+   padding-top: var(--space-medium);
+
+} 
+
+.btn-medium:active {
+    background-color: var(--color-violence);
+
+}
+
+
+.btn-medium:disabled{
+    background-color: var(--color-calme);
+    
+}
+
+.btn-small{
+    background-color: var(--color-ultra_violence);
+    width: var(--width-small);
+    font-size: var(--size-small);
+    padding-bottom: var(--space-small);
+    padding-top: var(--space-small);
+    
+}
+
+.btn-small:active {
+    background-color: var(--color-violence);
+
+}
+
+.btn-small:disabled{
+ background-color: var(--color-calme);
+ 
+}
 
 
 .btn-secondary-off{
