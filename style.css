@@ -17,6 +17,7 @@ h2 {
     margin-right: var(--margin-righ);
     margin-left: var(--margin-left);
     border-radius: 50%;
+    text-align: center;
     
     
 }
