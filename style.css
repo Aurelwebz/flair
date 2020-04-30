@@ -1,16 +1,14 @@
 body {
-    margin-left: 20px;
-    font-family: var(--font-family)
+  margin-left: 20px;
+  font-family: var(--font-family);
 }
 
-
-h1{
-    text-align: center;
-    
+h1 {
+  text-align: center;
 }
 
-h2{
-    margin-left: 15px;
+h2 {
+  margin-left: 15px;
 }
 
 .swatch{
@@ -23,37 +21,36 @@ h2{
     
 }
 :root {
-    --color-violence: #561067;
-    --color-ultra_violence: #32083C;
-    --color-calme: #C2B5C5;
-    --color-bouteille: #0CB38B;
-    --color-jus_dorange: #F5871F;
-    --color-icetea: #FFB444;
-    --color-icetealight: #FCDBBC;
-    --color-biere: #D8CD4B;
-    --color-soft: #F594A0;
-    --color-neige: #FFFFFF;
-    --color-foule: #000000;
-    --color-interdit: #FF0000;
-    --border-size: 3px;
-     --space-big: 12px; 
-     --space-medium: 6px;
-     --space-small: 3px;
-    --border-radius: 50px;
-    --font-family: 'Encode Sans expanded';
-    --margin-left: 42px;
-    --margin-righ:  42px;
-    /* --padding-left: 96px; */
-    --padding-right: 96px;
-    --width-big: 327px;
-    --width-medium: 103px;
-    --width-small: 80px;
-    --size-titre: 24px;
-    --size-big: 16px;
-    --size-medium:12px;
-    --size-small:10px;
-
-    
+  --color-violence: #561067;
+  --color-ultra_violence: #32083c;
+  --color-calme: #c2b5c5;
+  --color-bouteille: #0cb38b;
+  --color-jus_dorange: #f5871f;
+  --color-icetea: #ffb444;
+  --color-icetealight: #fcdbbc;
+  --color-biere: #d8cd4b;
+  --color-soft: #f594a0;
+  --color-neige: #ffffff;
+  --color-foule: #000000;
+  --color-interdit: #ff0000;
+  --border-size: 3px;
+  --space-big: 12px;
+  --space-medium: 6px;
+  --space-small: 3px;
+  --border-radius: 50px;
+  --border-radius-small: 5px;
+  --font-family: "Encode Sans expanded";
+  --margin-left: 42px;
+  --margin-righ: 42px;
+  /* --padding-left: 96px; */
+  --padding-right: 96px;
+  --width-big: 327px;
+  --width-medium: 103px;
+  --width-small: 80px;
+  --size-titre: 24px;
+  --size-big: 16px;
+  --size-medium: 12px;
+  --size-small: 10px;
 }
 
 /* small hauteur : 7 largeur : 28
@@ -72,40 +69,38 @@ Moyenne : H=13px L=40px
     
 }
 
-
 /* COLORS */
 
 .violence {
-    background-color: var(--color-violence);
-   
+  background-color: var(--color-violence);
 }
 
 .ultra_violence {
-    background-color: var(--color-ultra_violence);
+  background-color: var(--color-ultra_violence);
 }
 
 .calme {
-    background-color: var(--color-calme);
+  background-color: var(--color-calme);
 }
 
 .jus_dorange {
-    background-color: var(--color-jus_dorange);
+  background-color: var(--color-jus_dorange);
 }
 
 .icetea {
-    background-color: var(--color-icetea);
+  background-color: var(--color-icetea);
 }
 
 .icetealight {
-    background-color: var(--color-icetealight);
+  background-color: var(--color-icetealight);
 }
 
-.biere{
-    background-color: var(--color-biere);
+.biere {
+  background-color: var(--color-biere);
 }
 
 .soft {
-    background-color: var(--color-soft);
+  background-color: var(--color-soft);
 }
 
 .neige {
@@ -113,187 +108,156 @@ Moyenne : H=13px L=40px
     border:1px solid grey;
 }
 .foule {
-    background-color: var(--color-foule);
+  background-color: var(--color-foule);
 }
-.interdit{
-    background-color: var(--color-interdit);
+.interdit {
+  background-color: var(--color-interdit);
 }
 
 .bouteille {
-    background-color: var(--color-bouteille);
+  background-color: var(--color-bouteille);
 }
 
-p{
-    font-family: var(--font-family);
+p {
+  font-family: var(--font-family);
 }
 
-.titredepage{
-    font-size: var(--size-titre);
-    font-weight: bold;
-    text-transform: uppercase;
+.titredepage {
+  font-size: var(--size-titre);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.titredesection{
-     font-size: var(--size-titre);
-    font-weight: bold;
+.titredesection {
+  font-size: var(--size-titre);
+  font-weight: bold;
 }
 
-.recherche{
-   font-size: var(--size-big);
-    font-weight: lighter;
+.recherche {
+  font-size: var(--size-big);
+  font-weight: lighter;
 }
 
-h2{
-    text-decoration: underline;
-    color: darkslategrey;
+h2 {
+  text-decoration: underline;
+  color: darkslategrey;
 }
 
+/*.......*/
 
-
-
-
-
-
-/*.......*/ 
-
-.btn{
-    padding: var(--space-sm);
-     font-family: var(--font-family);
-     border: var(--border-size);
-     border-radius: var(--border-radius);
-     margin-left: var(--margin-left);
-     margin-right: var(--margin-righ);
-     color: var(--color-neige)
+.btn {
+  padding: var(--space-sm);
+  font-family: var(--font-family);
+  border: var(--border-size);
+  border-radius: var(--border-radius);
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-righ);
+  color: var(--color-neige);
 }
 
-
- .btn-big{
-     background-color: var(--color-ultra_violence);
-     width: var(--width-big);
-     font-size: var(--size-big);
-     padding-top: var(--space-big);
-     padding-bottom: var(--space-big);
-       
-    
-} 
-
-
-
-.btn-big:hover{
-    background-color: var(--color-violence);
-    
+.btn-big {
+  background-color: var(--color-ultra_violence);
+  width: var(--width-big);
+  font-size: var(--size-big);
+  padding-top: var(--space-big);
+  padding-bottom: var(--space-big);
 }
 
-.btn-big:active{
-    background-color: var(--color-violence);
-    
+.btn-big:hover {
+  background-color: var(--color-violence);
 }
 
-
-
-.btn-big:disabled{
-    background-color: var(--color-calme);
-    
+.btn-big:active {
+  background-color: var(--color-violence);
 }
 
-.btn-medium{
-    
-    background-color: var(--color-ultra_violence);
-    width: var(--width-medium);
-   font-size: var(--size-medium);
-   padding-bottom: var(--space-medium);
-   padding-top: var(--space-medium);
+.btn-big:disabled {
+  background-color: var(--color-calme);
+}
 
-} 
+.btn-medium {
+  background-color: var(--color-ultra_violence);
+  width: var(--width-medium);
+  font-size: var(--size-medium);
+  padding-bottom: var(--space-medium);
+  padding-top: var(--space-medium);
+}
 
 .btn-medium:active {
-    background-color: var(--color-violence);
-
+  background-color: var(--color-violence);
 }
 
-
-.btn-medium:disabled{
-    background-color: var(--color-calme);
-    
+.btn-medium:disabled {
+  background-color: var(--color-calme);
 }
 
-.btn-small{
-    background-color: var(--color-ultra_violence);
-    width: var(--width-small);
-    font-size: var(--size-small);
-    padding-bottom: var(--space-small);
-    padding-top: var(--space-small);
-    
+.btn-small {
+  background-color: var(--color-ultra_violence);
+  width: var(--width-small);
+  font-size: var(--size-small);
+  padding-bottom: var(--space-small);
+  padding-top: var(--space-small);
 }
 
 .btn-small:active {
-    background-color: var(--color-violence);
-
+  background-color: var(--color-violence);
 }
 
-.btn-small:disabled{
- background-color: var(--color-calme);
- 
+.btn-small:disabled {
+  background-color: var(--color-calme);
 }
 
-
-.btn-secondary-off{
-   
-    background-color: var(--color-jus_dorange);
-   
+.btn-secondary-off {
+  background-color: var(--color-jus_dorange);
 }
 
-.btn-secondary-off:active{
-    background-color: var(--color-icetea);
+.btn-secondary-off:active {
+  background-color: var(--color-icetea);
 }
 
-
-
-.btn-secondary-on{
-
-    background-color: var(--color-ultra_violence);
+.btn-secondary-on {
+  background-color: var(--color-ultra_violence);
 }
 
-.btn-secondary-on:active{
-    background-color: var(--color-violence);
+.btn-secondary-on:active {
+  background-color: var(--color-violence);
 }
 
 .btn-secondary-off:disabled {
-    background-color: var(--color-icetealight);
+  background-color: var(--color-icetealight);
 }
 
 .btn-secondary-on:disabled {
-    background-color: var(--color-calme);
+  background-color: var(--color-calme);
 }
 
-
-
-
-.btn-tertiary{
-    height: 44px;
-    width:44px;
-    background-color: var(--color-jus_dorange);
+.btn-tertiary {
+  height: 44px;
+  width: 44px;
+  background-color: var(--color-jus_dorange);
 }
 
-
-.btn-tertiary:active{
-    background-color:var(--color-icetea) ;
+.btn-tertiary:active {
+  background-color: var(--color-icetea);
 }
 
-.btn-tertiary:disabled{
-    background-color: var(--color-icetealight);
+.btn-tertiary:disabled {
+  background-color: var(--color-icetealight);
 }
 
-
-.bouton{
-    display: block;
+.bouton {
+  display: block;
 }
 
+fieldset {
+  border: var(--border-size) solid var(--color-biere);
+  border-radius: var(--border-radius-small);
+  width: var(--width-big);
+}
 
-
-
-
-
+legend h1 {
+  font-size: var(--size-titre);
+}
 
 /* BUTTONS */
 /* 
@@ -331,4 +295,4 @@ h2{
     width: 66px;
     border-radius: 50px;
     margin: 5px;
-} */ 
+} */
