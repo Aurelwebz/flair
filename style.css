@@ -93,6 +93,27 @@ Moyenne : H=13px L=40px
     background-color: var(--color-icetealight);
 }
 
+.biere{
+    background-color: var(--color-biere);
+}
+
+.soft {
+    background-color: var(--color-soft);
+}
+
+.neige {
+    background-color: var(--color-neige);
+}
+.foule {
+    background-color: var(--color-foule);
+}
+.interdit{
+    background-color: var(--color-interdit);
+}
+
+.bouteille {
+    background-color: var(--color-bouteille);
+}
 
 p{
     font-family: var(--font-family);
