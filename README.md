@@ -4,7 +4,7 @@
 <img src="./image/flair.png" width="50px" alt="logo flair"> 
 UI library FLAIR
 
- by <img src= "./image/aurel.png width="50px" alt="aurel"> Aurélie et Valentin <img src= "./image/val.png width="50px" alt="valentin"> 
+ by <img src="./image/aurel.png" width="50px" alt="aurel"> Aurélie et Valentin <img src= "./image/val.png" width="50px" alt="valentin"> 
  
   <img src="./image/smiles.png" width="50px" alt="amis"> Flair est une application pour rejoindre ou retrouver ses amis perdus lors d'évènements type festivals, concerts, compétitions sportives... partout ou il y a de la foule et ou on ne veut pas finir tout seul!  
 
