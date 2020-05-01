@@ -6,10 +6,10 @@ body {
 h1 {
   text-align: center;
 }
-
-h2 {
-  margin-left: 15px;
-}
+  /* 
+  h2 {
+    margin-left: 15px;
+  } */
 
 #colorsample {
   display: flex;
@@ -31,6 +31,7 @@ h2 {
 
 .bouton{
   display: block;
+  
 }
 
 
