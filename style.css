@@ -36,6 +36,11 @@ h2 {
     
 }
 
+.bouton{
+  display: block;
+}
+
+
 
 
 :root {
@@ -275,10 +280,7 @@ h2 {
   background-color: var(--color-icetealight);
 }
 
-.bouton {
-  display: block;
-  flex-direction: column;
-}
+
 
 fieldset {
   border: var(--border-size) solid var(--color-biere);
