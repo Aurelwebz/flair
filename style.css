@@ -17,6 +17,7 @@ h2 {
 #colorsample {
   display: flex;
   flex-wrap: wrap;
+  margin-left: var(--margin-left);
 }
 
 .swatch {
@@ -32,8 +33,9 @@ h2 {
   justify-content: center;
 }
 
-.bouton{
+.boutonbase{
   display: block;
+  margin-left: +var(--padding-left);
 }
 
 
@@ -138,6 +140,7 @@ Moyenne : H=13px L=40px
 
 p {
   font-family: var(--font-family);
+  margin-left: var(--padding-left);
 }
 
 .titredepage {
@@ -274,6 +277,7 @@ fieldset {
   border: var(--border-size) solid var(--color-biere);
   border-radius: var(--border-radius-small);
   width: var(--width-big);
+  margin-left: var(--padding-left);
 }
 
 legend h1 {
