@@ -7,11 +7,12 @@ h1 {
   text-align: center;
 }
   
-  h2 {
-    margin-left: 15px;
-    color:var(--color-jus_dorange);
-    text-transform: uppercase;
-  }
+h2 {
+  margin-left: 15px;
+  color:var(--color-jus_dorange);
+  text-transform: uppercase;
+  margin: 100px 0px 50px 0px;
+}
 
 #colorsample {
   display: flex;
@@ -33,7 +34,6 @@ h1 {
 
 .bouton{
   display: block;
-  
 }
 
 :root {
