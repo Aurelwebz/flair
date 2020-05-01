@@ -1,5 +1,5 @@
 body {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-family: var(--font-family);
 }
 
@@ -280,6 +280,10 @@ fieldset {
 legend h1 {
   font-size: var(--size-titre);
 }
+
+
+
+
 
 /* BUTTONS */
 /* 
