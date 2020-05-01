@@ -12,22 +12,31 @@ h2 {
 }
 
 #colorsample {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  
+   
+
+
 }
 
-.swatch {
-  display: flex;
-  flex-direction: column;
-  height: 9rem;
-  width: 9rem;
-  margin-right: var(--margin-righ);
-  margin-left: var(--margin-left);
-  border-radius: 50%;
-  margin-top: 10px;
-  text-align: center;
-  justify-content: center;
+.swatch{
+    display: flex;
+    flex-direction: column;
+    height: 9rem;
+    width: 9rem;
+    margin-right: var(--margin-righ);
+    margin-left: var(--margin-left);
+    border-radius: 50%;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+ 
+     
+    
 }
+
+
 
 :root {
   --color-violence: #561067;
@@ -43,7 +52,7 @@ h2 {
   --color-foule: #000000;
   --color-interdit: #ff0000;
   --border-size: 3px;
-  --space-big: 12px;
+  /* --space-big: 12px; */
   --space-medium: 6px;
   --space-small: 3px;
   --border-radius: 50px;
@@ -51,9 +60,9 @@ h2 {
   --font-family: "Encode Sans expanded";
   --margin-left: 42px;
   --margin-righ: 42px;
-  --padding-left: 93px;
-  --padding-right: 93px;
-  --padding-top-bot: 15px;
+  --padding-left: 94px;
+  --padding-right: 94px;
+  --padding-top-bot:15px;
   --width-big: 327px;
   --width-medium: 103px;
   --width-small: 80px;
@@ -73,6 +82,8 @@ btn-big : H 21 L 95
 
 Moyenne : H=13px L=40px
 */
+
+
 
 /* COLORS */
 
@@ -111,8 +122,8 @@ Moyenne : H=13px L=40px
 }
 
 .neige {
-  background-color: var(--color-neige);
-  border: 1px solid grey;
+    background-color: var(--color-neige);
+    border:1px solid grey;
 }
 .foule {
   background-color: var(--color-foule);
@@ -163,15 +174,15 @@ h2 {
   color: var(--color-neige);
   padding-top: var(--padding-top-bot);
   padding-bottom: var(--padding-top-bot);
+  
 }
 
 .btn-big {
   background-color: var(--color-ultra_violence);
   width: var(--width-big);
   font-size: var(--size-big);
-  padding-top: var(--space-big);
-  padding-bottom: var(--space-big);
   font-weight: var(--weight-button);
+
 }
 
 .btn-big:hover {
@@ -259,6 +270,7 @@ h2 {
 
 .bouton {
   display: block;
+  flex-direction: column;
 }
 
 fieldset {
