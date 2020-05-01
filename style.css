@@ -140,7 +140,11 @@ Moyenne : H=13px L=40px
 
 p {
   font-family: var(--font-family);
-  margin-left: var(--padding-left);
+  
+}
+
+.typos{
+  margin-left: var(--margin-left);
 }
 
 .titredepage {
