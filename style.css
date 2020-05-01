@@ -36,7 +36,14 @@ h2 {
 .boutonbase{
   display: block;
   margin-left: +var(--padding-left);
+} 
+
+
+.md,.sm{
+  
+  margin-top: 24px;
 }
+
 
 
 
