@@ -6,10 +6,12 @@ body {
 h1 {
   text-align: center;
 }
-  /* 
+  
   h2 {
     margin-left: 15px;
-  } */
+    color:var(--color-jus_dorange);
+    text-transform: uppercase;
+  }
 
 #colorsample {
   display: flex;
@@ -161,10 +163,7 @@ p {
   font-size: var(--size-big);
 }
 
-h2 {
-  text-decoration: underline;
-  color: darkslategrey;
-}
+
 
 /*.......*/
 
