@@ -6,7 +6,7 @@ UI library
  
  Flair est une application pour retrouver ses amis lors d'évènements type festivals, concerts, compétitions sportives... partout ou il y a de la foule et ou on ne veut pas finir tout seul!  
 
- <img src="./image/smiles.png">
+ <img src="./image/smiles.png" width="50px">
  
  Nous avons designé cette appli sur l'outil Figma car il permet de travailler en collaboration en simultané et en temps réel.
  
