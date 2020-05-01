@@ -1,5 +1,5 @@
 body {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-family: var(--font-family);
 }
 
@@ -28,6 +28,13 @@ h2 {
   text-align: center;
   justify-content: center;
 }
+
+.bouton{
+  display: block;
+}
+
+
+
 
 :root {
   --color-violence: #561067;
@@ -262,10 +269,7 @@ h2 {
   background-color: var(--color-icetealight);
 }
 
-.bouton {
-  display: block;
-  flex-direction: column;
-}
+
 
 fieldset {
   border: var(--border-size) solid var(--color-biere);
@@ -276,6 +280,10 @@ fieldset {
 legend h1 {
   font-size: var(--size-titre);
 }
+
+
+
+
 
 /* BUTTONS */
 /* 
