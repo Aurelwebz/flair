@@ -120,6 +120,7 @@ Moyenne : H=13px L=40px
 }
 .interdit {
   background-color: var(--color-interdit);
+  color: var(--color-neige);
 }
 
 .bouteille {
@@ -134,6 +135,7 @@ p {
   font-size: var(--size-titre);
   font-weight: bold;
   text-transform: uppercase;
+  color: var(--color-jus_dorange);
 }
 
 .titredesection {
@@ -144,6 +146,11 @@ p {
 .recherche {
   font-size: var(--size-big);
   font-weight: lighter;
+  color: var(--color-calme);
+}
+
+.texte {
+  font-size: var(--size-big);
 }
 
 h2 {
