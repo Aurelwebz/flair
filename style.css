@@ -11,16 +11,24 @@ h2 {
   margin-left: 15px;
 }
 
-.swatch{
-    height: 8rem;
-    width: 8rem;
-    margin-right: var(--margin-righ);
-    margin-left: var(--margin-left);
-    border-radius: 50%;
-    text-align: center;
-    
-    
+#colorsample {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  height: 9rem;
+  width: 9rem;
+  margin-right: var(--margin-righ);
+  margin-left: var(--margin-left);
+  border-radius: 50%;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
 :root {
   --color-violence: #561067;
   --color-ultra_violence: #32083c;
@@ -43,8 +51,9 @@ h2 {
   --font-family: "Encode Sans expanded";
   --margin-left: 42px;
   --margin-righ: 42px;
-  /* --padding-left: 96px; */
-  --padding-right: 96px;
+  --padding-left: 93px;
+  --padding-right: 93px;
+  --padding-top-bot: 15px;
   --width-big: 327px;
   --width-medium: 103px;
   --width-small: 80px;
@@ -52,6 +61,7 @@ h2 {
   --size-big: 16px;
   --size-medium: 12px;
   --size-small: 10px;
+  --weight-button: 600;
 }
 
 /* small hauteur : 7 largeur : 28
@@ -64,20 +74,16 @@ btn-big : H 21 L 95
 Moyenne : H=13px L=40px
 */
 
-#colorsample{
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-
 /* COLORS */
 
 .violence {
   background-color: var(--color-violence);
+  color: var(--color-neige);
 }
 
 .ultra_violence {
   background-color: var(--color-ultra_violence);
+  color: var(--color-neige);
 }
 
 .calme {
@@ -105,11 +111,12 @@ Moyenne : H=13px L=40px
 }
 
 .neige {
-    background-color: var(--color-neige);
-    border:1px solid grey;
+  background-color: var(--color-neige);
+  border: 1px solid grey;
 }
 .foule {
   background-color: var(--color-foule);
+  color: var(--color-neige);
 }
 .interdit {
   background-color: var(--color-interdit);
@@ -154,6 +161,8 @@ h2 {
   margin-left: var(--margin-left);
   margin-right: var(--margin-righ);
   color: var(--color-neige);
+  padding-top: var(--padding-top-bot);
+  padding-bottom: var(--padding-top-bot);
 }
 
 .btn-big {
@@ -162,6 +171,7 @@ h2 {
   font-size: var(--size-big);
   padding-top: var(--space-big);
   padding-bottom: var(--space-big);
+  font-weight: var(--weight-button);
 }
 
 .btn-big:hover {
@@ -182,6 +192,7 @@ h2 {
   font-size: var(--size-medium);
   padding-bottom: var(--space-medium);
   padding-top: var(--space-medium);
+  font-weight: var(--weight-button);
 }
 
 .btn-medium:active {
