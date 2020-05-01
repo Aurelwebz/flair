@@ -1,7 +1,7 @@
 # flair
 
 
-<img src="./image/flair.png" width="50px" alt="logo flair"> 
+<img src="./image/flair.png" alt="logo flair"> 
 UI library FLAIR
 
  by <img src="./image/aurel.png" width="50px" alt="aurel"> Aurélie et Valentin <img src= "./image/val.png" width="50px" alt="valentin"> 
