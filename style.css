@@ -8,7 +8,6 @@ h1 {
 }
   
 h2 {
-  
   color:var(--color-jus_dorange);
   text-transform: uppercase;
   margin: 100px 0px 50px 15px;
@@ -38,14 +37,9 @@ h2 {
   margin-left: +var(--padding-left);
 } 
 
-
 .md,.sm{
-  
   margin-top: 24px;
 }
-
-
-
 
 :root {
   --color-violence: #561067;
@@ -81,16 +75,6 @@ h2 {
   --size-small: 10px;
   --weight-button: 600;
 }
-
-/* small hauteur : 7 largeur : 28
-avec icon hauteur : 5 largeur : 18
-
-medium : H 18 L 18
-
-btn-big : H 21 L 95 
-
-Moyenne : H=13px L=40px
-*/
 
 /* COLORS */
 
@@ -147,7 +131,6 @@ Moyenne : H=13px L=40px
 
 p {
   font-family: var(--font-family);
-  
 }
 
 .typos{
@@ -176,9 +159,7 @@ p {
   font-size: var(--size-big);
 }
 
-
-
-/*.......*/
+/* --------- BUTTONS --------- */
 
 .btn {
   padding: var(--space-sm);
@@ -282,7 +263,7 @@ p {
   background-color: var(--color-icetealight);
 }
 
-
+/* FILEDSET */
 
 fieldset {
   border: var(--border-size) solid var(--color-biere);
@@ -337,3 +318,40 @@ legend h1 {
     border-radius: 50px;
     margin: 5px;
 } */
+
+
+.card {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+  border: var(--border-size) solid var(--color-biere);
+  border-radius: var(--border-radius-small);
+  width: var(--width-big);
+  margin-left: var(--margin-left)
+}
+
+.titre {
+  font-size: var(--size-titre);
+  font-weight: bold;
+  color: var(--color-ultra_violence);
+}
+
+.card .titre{
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
