@@ -61,8 +61,8 @@ h2 {
   --border-radius: 50px;
   --border-radius-small: 5px;
   --font-family: "Encode Sans expanded";
-  --margin-left: 42px;
-  --margin-righ: 42px;
+  --margin-left: 40px;
+  --margin-righ: 40px;
   --padding-left: 94px;
   --padding-right: 94px;
   --padding-top-bot: 15px;
@@ -185,7 +185,7 @@ height: 200px;
   border: var(--border-size);
   border-radius: var(--border-radius);
   margin-left: var(--margin-left);
-  margin-right: var(--margin-righ);
+  /* margin-right: var(--margin-righ); */
   color: var(--color-neige);
   padding-top: var(--padding-top-bot);
   padding-bottom: var(--padding-top-bot);
@@ -299,6 +299,8 @@ legend h1 {
 
 
 
+
+
 /* BUTTONS */
 /* 
 .bigbutton {
@@ -361,9 +363,14 @@ legend h1 {
   font-size: var(--size-titre);
   font-weight: bold;
   color: var(--color-ultra_violence);
+  position: relative;
+  bottom: 22px;
+  background-color: white;
+  padding: 1px;
+  
 }
 
-.card .titre{
+.card.titre {
   display: block;
   padding-inline-start: 2px;
   padding-inline-end: 2px;
@@ -372,4 +379,5 @@ legend h1 {
   border-color: initial;
   border-image: initial;
 }
+
 
