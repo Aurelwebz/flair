@@ -74,6 +74,8 @@ h2 {
   --size-medium: 12px;
   --size-small: 10px;
   --weight-button: 600;
+  --width-column: 40px;
+  --grid-space: 20px;
 }
 
 /* COLORS */
@@ -158,6 +160,22 @@ p {
 .texte {
   font-size: var(--size-big);
 }
+
+/* .................... GRID ................. */
+
+#gridscreen,#gridsize{
+  display: flex;
+  margin-left: var(--margin-left);
+}
+
+.gridscreencolumn{
+width: var(--width-column);
+margin-right: var(--grid-space);
+background-color: var(--color-soft);
+height: 200px;
+}
+
+
 
 /* --------- BUTTONS --------- */
 
