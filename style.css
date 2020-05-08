@@ -76,6 +76,7 @@ h2 {
   --weight-button: 600;
   --width-column: 40px;
   --grid-space: 20px;
+  --space-vertical: 32px;
 }
 
 /* COLORS */
@@ -282,7 +283,7 @@ height: 200px;
 }
 
 /* FILEDSET */
-
+/* 
 fieldset {
   border: var(--border-size) solid var(--color-biere);
   border-radius: var(--border-radius-small);
@@ -294,7 +295,7 @@ legend h1 {
   font-size: var(--size-titre);
   
 }
-
+ */
 
 
 
@@ -338,6 +339,36 @@ legend h1 {
     border-radius: 50px;
     margin: 5px;
 } */
+
+
+#spacebtnbig{
+  /* border-right: var(--border-size) solid var(--color-violence); */
+  border-bottom: var(--border-size) solid var(--color-violence);
+  padding-bottom:var(--space-vertical);
+  width: 391px;
+  margin-left: var(--margin-left);
+  
+   border-top: var(--border-size) solid var(--color-violence);
+   padding-top: var(--space-vertical);
+  display: flex;
+ 
+
+}
+
+#spacepone{
+  margin-left: var(--margin-left);
+  position: relative;
+  bottom: 32px;
+}
+
+#spaceptwo{
+ 
+  position: relative;
+  top: 32px;
+  right:36px;
+}
+
+
 
 
 .card {
